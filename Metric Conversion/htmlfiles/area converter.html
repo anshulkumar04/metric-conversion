@@ -1,0 +1,511 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title> MetriZEN - Area convertor</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <!-- cdn link -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+ <!-- css  -->
+ <link rel="stylesheet" href="../css/style.css">
+ <!-- owl carousel -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">  
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+ <!-- animate lib -->
+ <link rel="stylesheet" href="../animate/animate.css">
+ <!-- google fonts -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<!-- bootstrap link -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+   integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"></head>
+
+<body>
+	<header>
+		<div class="container-fluid" style="background-image: url('../img/pexels-jeshootscom-834892.jpg'); height: 400px; background-size: cover; background-repeat: no-repeat; background-position: center center; overflow: hidden;">
+			<nav class="navbar navbar-expand-lg">
+				<div class="container">
+				  <img src="../img/logoo-removebg-preview.png" class="logo" alt="">
+				  <h2 class="company-name">MetriZEN</h2>
+				  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav">
+					  <li class="nav-item nav-option">
+						<a class="nav-link text-black" aria-current="page" href="../index.html">Home</a>
+					  </li>
+					  <li class="nav-item nav-option">
+						<a class="nav-link text-black" href="./history.html">History</a>
+					  </li>
+					  <li class="nav-item nav-option">
+						<a class="nav-link text-black" href="./FAQ.html">FAQ'S</a>
+					  </li>
+					  <li class="nav-item nav-option">
+						<a class="nav-link text-black" href="./feedback.html">Feedback</a>
+					  </li>
+					  <li class="nav-item nav-option">
+						<a class="nav-link text-black" href="./aboutus.html">AboutUs</a>
+					  </li>
+			
+					</ul>
+				  </div>
+				</div>
+			  </nav>
+		  <div class="carousel container-fluid">
+			<div class="row carousel-div">
+			  <div class="col-md-6">
+				<h1 style="font-size: 5vw; line-height: 80px;" class="text-dark animated slideInLeft carousel-heading">Area Convertor</h1>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </header>
+	  
+	  <br><br>
+	  <main class="py-5">
+		<div class="container">
+			<h1 class="animated slideInLeft">Area</h1>
+			<p class="animated slideInRight text-black">Area is a fundamental measurement in the world of mathematics and science, and it plays a crucial role in various fields, from geometry to engineering and construction. In the metric system, which is the international standard for measurement, area is typically expressed in square meters (m²). The metric system's uniformity and decimal-based structure make area conversions straightforward and easy to grasp. To convert between different metric area units, you simply need to apply the appropriate conversion factors.</p>
+		</div>
+	
+		<div class="container converter-body">
+			<div class="row ">
+				<div class=" col-md-4  mb-4">
+					<input type="text" placeholder="Input" class="form-control inputs" id="input">
+				</div>
+				<div class=" col-md-1  mb-4 text-center">
+					<span>=</span>
+				</div>
+				<div class=" col-md-4  mb-4">
+					<input type="text" placeholder="Result" class="form-control inputs" id="result">
+				</div>
+			</div>
+	
+			<div class="row ">
+				<div class=" col-md-4  mb-4">
+					<select id="inputType" class="form-select">
+						<option value="square-inch">Square Inch</option>
+						<option value="square-foot">Square Foot</option>
+						<option value="square-yard">Square Yard</option>
+						<option value="square-mile">Square Mile</option>
+						<option value="square-millimeter">Square Millimeter</option>
+						<option value="square-meter">Square Meter</option>
+						<option value="square-kilometer">Square Kilometer</option>
+						<option value="acre">Acre</option>
+						<option value="hectare">Hectare</option>
+					</select>
+				</div>
+				<div class="col-md-1"></div>
+				<div class=" col-md-4  mb-4">
+					<select id="resultType" class="form-select">
+						<option value="square-inch">Square Inch</option>
+						<option value="square-foot">Square Foot</option>
+						<option value="square-yard">Square Yard</option>
+						<option value="square-mile">Square Mile</option>
+						<option value="square-millimeter">Square Millimeter</option>
+						<option value="square-meter">Square Meter</option>
+						<option value="square-kilometer">Square Kilometer</option>
+						<option value="acre">Acre</option>
+						<option value="hectare">Hectare</option>
+					</select>
+				</div>
+			</div>
+		</div>
+	
+		<div class="container py-5">
+			<h3 class="animated slideInLeft text-center text-black">--Learn to convert Most of area unit--</h3>
+			<br>
+			<div class="row">
+				<div class="col-md-6">
+					<video src="../video/Area Conversions.mp4" controls class="w-100" alt="Area Conversions Video"></video>
+				</div>
+				<div class="col-md-6 animated slideInRight videodescription">
+					<h2 class="text-center">What will this video <i class="bi bi-camera-reels-fill"></i> teach you? </h2>
+					<p>
+						Starting with the basics, this video will introduce you to square meters and square feet, making sure you have a solid understanding before moving on to more complex units like square kilometers, acres, and hectares. Our goal is to make area measurement simple and accessible for everyone. What makes this video special is its straightforward approach. We use visuals, clear graphics, and relatable examples to help you not only understand the theory but also see how it applies in practical situations. Learning about area units has never been this easy and engaging. But we don't stop there. We'll also guide you through the conversion process between metric and imperial units, ensuring you have a well-rounded understanding of area measurement across different systems.
+					</p>
+				</div>
+			</div>
+		</div>
+	</main>
+	 <br><br>
+  
+	<footer class="text-center text-lg-start ">
+<!-- Section: Social media -->
+<section class="container-fluid icon-section py-4">
+    <div class="row align-items-center">
+        <!-- Left -->
+        <div class="col-md-6  mb-3 mb-lg-0">
+            <div class="font-weight-bold text-black text-center text-lg-start">
+                Get connected with us on social networks:
+            </div>
+        </div>
+        <!-- Left -->
+
+        <!-- Right -->
+        <div class="col-md-6  d-flex justify-content-center justify-content-lg-end">
+            <i class="bi bi-facebook me-4 facebook"></i>
+            <i class="bi bi-google me-4 google"></i>
+            <i class="bi bi-instagram me-4 instagram"></i>
+            <i class="bi bi-twitter me-4 twitter"></i>
+            <i class="bi bi-github me-4 github"></i>
+        </div>
+        <!-- Right -->
+    </div>
+</section>
+	  
+		<!-- Section: Links  -->
+		<section class="">
+		  <div class="container text-center text-md-start mt-5">
+			<!-- Grid row -->
+			<div class="row mt-3">
+			  <!-- Grid column -->
+			  <div class="col-md-3  mx-auto mb-4">
+				<!-- Content -->
+				<h6 class="text-uppercase fw-bold mb-4 text-black">
+				  <i class="bi bi-gem me-3 text-black"></i>MetriZEN
+				</h6>
+				<p class="text-black">
+				  Here you can  convert most of S.I Units quickly and accurately.It would be great for us to help you in converting the units and sign up for keeping your history in records.
+				</p>
+			  </div>
+			  <div class="col-md-2 mx-auto mb-4 text-black">
+				<!-- Links -->
+				<h6 class="text-uppercase fw-bold mb-4 text-black">
+				  services
+				</h6>
+				<p>
+				  <a href="./area converter.html" class="text-reset">Area conversion</a>
+				</p>
+				<p>
+				  <a href="./length converter.html" class="text-reset">lenght conversion</a>
+				</p>
+				<p>
+				  <a href="./currency converter.html" class="text-reset">Currency Change</a>
+				</p>
+				<p>
+				  <a href="./temperature converter.html" class="text-reset">Temprature conversion</a>
+				</p>
+				<p>
+					<a href="./volume converter.html" class="text-reset">Volume conversion</a>
+				  </p>
+				<p>
+					<a href="./mass converter.html" class="text-reset">Mass conversion</a>
+				  </p>
+			  </div>
+			  <!-- Grid column -->
+			  <!-- Grid column -->
+			  <div class="col-md-3 2 mx-auto mb-4 text-black">
+				<!-- Links -->
+				<h6 class="text-uppercase fw-bold mb-4 text-black">
+				  Useful links
+				</h6>
+				<p>
+				  <a href="../index.html" class="text-reset">HOME</a>
+				</p>
+				<p>
+				  <a href="./feedback.html" class="text-reset">FEEDBACK</a>
+				</p>
+			
+				<p>
+				  <a href="./FAQ.html" class="text-reset">FAQ's</a>
+				</p>
+				<p>
+				  <a href="./history.html" class="text-reset">HISTORY</a>
+				</p>
+			  </div>
+			  <!-- Grid column -->
+	  
+			  <!-- Grid column -->
+			  <div class="col-md-4 text-black mx-auto mb-md-0 mb-4">
+				<!-- Links -->
+				<h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+				<p><i class="bi bi-house me-3"></i> Aptech Garden Karachi, PK</p>
+				<p>
+				  <i class="bi bi-envelope me-3"></i>
+				  MetriZEN@example.com
+				</p>
+				<p><i class="bi bi-phone me-3"></i> +92 333 123 444 2</p>
+				<p><i class="bi bi-phone me-3"></i> +93 453 212 540 4</p>
+			  </div>
+			  <!-- Grid column -->
+			</div>
+			<!-- Grid row -->
+		  </div>
+		</section>
+		<!-- Section: Links  -->
+		<div class="container p-4">
+		  <!-- Section: Images -->
+		  <section class="container">
+			<div class="row">
+			  <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+				<div
+				  class="bg-image hover-overlay ripple shadow-1-strong rounded"
+				  data-ripple-color="light"
+				>
+				  <img
+					src="../img/pexels-dids-2714073.jpg"
+					class="w-100" style="height:150px ;"
+				  />
+				  </div>
+			  </div>
+			  <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+				<div
+				  class="bg-image hover-overlay ripple shadow-1-strong rounded"
+				  data-ripple-color="light"
+				>
+				  <img
+					src="../img/pexels-mikhail-nilov-7530583.jpg"
+					class="w-100 h-25"
+				  />
+				</div>
+			  </div>
+			  <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+				<div
+				  class="bg-image hover-overlay ripple shadow-1-strong rounded"
+				  data-ripple-color="light"
+				>
+				  <img
+					src="../img/pexels-tima-miroshnichenko-6766373.jpg"
+					class="w-100" style="height:150px ;"
+				  />
+				</div>
+			  </div>
+			  <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+				<div
+				  class="bg-image hover-overlay ripple shadow-1-strong rounded"
+				  data-ripple-color="light"
+				>
+				  <img
+					src="../img/pexels-koolshooters-6626988.jpg"
+					class="w-100 h-25"
+				  />
+				 
+				</div>
+			  </div>
+			  <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+				<div
+				  class="bg-image hover-overlay ripple shadow-1-strong rounded"
+				  data-ripple-color="light"
+				>
+				  <img
+					src="../img/pexels-tima-miroshnichenko-6263114.jpg"
+					class="w-100" style="height:150px ;"
+				  />
+				</div>
+			  </div>
+			  <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+				<div
+				  class="bg-image hover-overlay ripple shadow-1-strong rounded"
+				  data-ripple-color="light">
+				  <img
+					src="../img/pexels-polina-tankilevitch-3873175.jpg"
+					class="w-100 h-25"/>
+				</div>
+			  </div>
+			</div>
+		  </section>
+		  <!-- Section: Images -->
+		</div>
+		<!-- Grid container -->
+		<!-- Copyright -->
+		<div class="text-center text-black p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+		  &COPY; 2023 Copyright: MetriZEN ALL RIGHT RESERVED.
+		</div>
+		<!-- Copyright -->
+	  </footer>
+	  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+	  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+	  crossorigin="anonymous"></script>
+   <script>
+var input = document.getElementById('input');
+var result = document.getElementById('result');
+var inputType = document.getElementById('inputType');
+var resultType = document.getElementById('resultType');
+var option_from,option_to;
+
+input.addEventListener("keyup",myResult);
+inputType.addEventListener("change",myResult);
+resultType.addEventListener("change",myResult);
+
+option_from = inputType.value;
+option_to   = resultType.value;
+
+
+function myResult(){
+
+	option_from = inputType.value;
+	option_to = resultType.value;
+
+	if(option_from === "square-kilometer" && option_to==="square-kilometer"){
+		result.value = input.value
+	}else if(option_from === "square-kilometer" && option_to==="square-millimeter"){
+		result.value = Number(input.value) * 1e+12;
+	}else if(option_from === "square-kilometer" && option_to==="square-meter"){
+		result.value = Number(input.value) * 1e+6;
+	}else if(option_from === "square-kilometer" && option_to==="square-yard"){
+		result.value = Number(input.value) * 1.196e+6;
+	}else if(option_from === "square-kilometer" && option_to==="square-foot"){
+		result.value = Number(input.value) * 1.076e+7;
+	}else if(option_from === "square-kilometer" && option_to==="square-inch"){
+		result.value = Number(input.value) * 1.55e+9;
+	}else if(option_from === "square-kilometer" && option_to==="square-mile"){
+		result.value = Number(input.value) / 2.59;
+	}else if(option_from === "square-kilometer" && option_to==="acre"){
+		result.value = Number(input.value) * 247.1;
+	}else if(option_from === "square-kilometer" && option_to==="hectare"){
+		result.value = Number(input.value) * 100;
+  }
+
+  if(option_from === "square-meter" && option_to==="square-kilometer"){
+		result.value = Number(input.value) / 1e+6;
+	}else if(option_from === "square-meter" && option_to==="square-millimeter"){
+		result.value = Number(input.value) * 1e+6;
+	}else if(option_from === "squareometers" && option_to==="square-meter"){
+		result.value = input.value
+	}else if(option_from === "squareometer" && option_to==="square-yard"){
+		result.value = Number(input.value) * 1.196;
+	}else if(option_from === "square-meter" && option_to==="square-foot"){
+		result.value = Number(input.value) * 10.764;
+	}else if(option_from === "square-kilometer" && option_to==="square-inche"){
+		result.value = Number(input.value) * 1550;
+	}else if(option_from === "square-meter" && option_to==="square-mile"){
+		result.value = Number(input.value) / 2.59e+6;
+	}else if(option_from === "square-meter" && option_to==="acre"){
+		result.value = Number(input.value) / 4047;
+  }else if(option_from === "square-meter" && option_to==="hectare"){
+		result.value = Number(input.value) / 10000;
+  }
+
+  if(option_from === "square-millimeter" && option_to==="square-kilometer"){
+		result.value = Number(input.value) / 1e+12;
+	}else if(option_from === "square-millimeter" && option_to==="square-millimeter"){
+		result.value = input.value
+	}else if(option_from === "square-millimeter" && option_to==="square-meter"){
+		result.value = Number(input.value) / 1e+6
+	}else if(option_from === "square-millimeter" && option_to==="square-yard"){
+		result.value = Number(input.value) / 836100;
+	}else if(option_from === "square-millimeter" && option_to==="square-foot"){
+		result.value = Number(input.value) / 92900;
+	}else if(option_from === "square-millimeter" && option_to==="square-inch"){
+		result.value = Number(input.value) / 645.2;
+	}else if(option_from === "square-millimeter" && option_to==="square-mile"){
+		result.value = Number(input.value) / 2.59e+12;
+	}else if(option_from === "square-millimeter" && option_to==="acre"){
+		result.value = Number(input.value) / 4.047e+9;
+  }else if(option_from === "square-millimeter" && option_to==="hectare"){
+		result.value = Number(input.value) / 1e+10;
+  }
+
+  if(option_from === "square-yard" && option_to==="square-kilometer"){
+		result.value = Number(input.value) / 1.196e+6;
+	}else if(option_from === "square-yard" && option_to==="square-millimeter"){
+		result.value = Number(input.value) * 836100;
+	}else if(option_from === "square-yard" && option_to==="square-meter"){
+		result.value = Number(input.value) / 1.196;
+	}else if(option_from === "square-yard" && option_to==="square-yard"){
+		result.value = input.value
+	}else if(option_from === "square-yard" && option_to==="square-foot"){
+		result.value = Number(input.value) * 9;
+	}else if(option_from === "square-yard" && option_to==="square-inoo"){
+		result.value = Number(input.value) * 1296;
+	}else if(option_from === "square-yard" && option_to==="square-mile"){
+		result.value = Number(input.value) / 3.098e+6;
+	}else if(option_from === "square-yard" && option_to==="acre"){
+		result.value = Number(input.value) / 4840;
+  }else if(option_from === "square-yard" && option_to==="hectare"){
+		result.value = Number(input.value) / 11960;
+  }
+
+  if(option_from === "square-foot" && option_to==="square-kilometer"){
+		result.value = Number(input.value) / 1.076e+7;
+	}else if(option_from === "square-foot" && option_to==="square-millimeter"){
+		result.value = Number(input.value) * 92900;
+	}else if(option_from === "square-foot" && option_to==="square-meter"){
+		result.value = Number(input.value) / 10.764;
+	}else if(option_from === "square-foot" && option_to==="square-yard"){
+		result.value = Number(input.value) / 9;
+	}else if(option_from === "square-foot" && option_to==="square-foot"){
+		result.value = input.value
+	}else if(option_from === "square-foot" && option_to==="square-inch"){
+		result.value = Number(input.value) * 144;
+	}else if(option_from === "square-foot" && option_to==="square-mile"){
+		result.value = Number(input.value) / 2.788e+7;
+	}else if(option_from === "square-foot" && option_to==="acre"){
+		result.value = Number(input.value) / 43560;
+  }else if(option_from === "square-foot" && option_to==="hectare"){
+		result.value = Number(input.value) / 107600;
+  }
+
+  if(option_from === "square-inch" && option_to==="square-kilometer"){
+		result.value = Number(input.value) / 1.55e+9;
+	}else if(option_from === "square-inch" && option_to==="square-millimeter"){
+		result.value = Number(input.value) * 645.2;
+	}else if(option_from === "square-inch" && option_to==="square-meter"){
+		result.value = Number(input.value) / 1550;
+	}else if(option_from === "square-inch" && option_to==="square-yard"){
+		result.value = Number(input.value) / 1296;
+	}else if(option_from === "square-inch" && option_to==="square-foot"){
+		result.value = Number(input.value) / 144;
+	}else if(option_from === "square-inch" && option_to==="square-inch"){
+		result.value = input.value
+	}else if(option_from === "square-inch" && option_to==="square-mile"){
+		result.value = Number(input.value) / 4.014e+9;
+	}else if(option_from === "square-inch" && option_to==="acre"){
+		result.value = Number(input.value) / 6.273e+6;
+  }else if(option_from === "square-inch" && option_to==="hectare"){
+		result.value = Number(input.value) / 1.55e+7;
+  }
+
+  if(option_from === "acre" && option_to==="square-kilometer"){
+		result.value = Number(input.value) / 247.1;
+	}else if(option_from === "acre" && option_to==="square-millimeter"){
+		result.value = Number(input.value) * 4.047e+9;
+	}else if(option_from === "acre" && option_to==="square-meter"){
+		result.value = Number(input.value) * 4047
+	}else if(option_from === "acre" && option_to==="square-yard"){
+		result.value = Number(input.value) * 4840;
+	}else if(option_from === "acre" && option_to==="square-foot"){
+		result.value = Number(input.value) * 43560;
+	}else if(option_from === "acre" && option_to==="square-inche"){
+		result.value = Number(input.value) * 6.273e+6;
+	}else if(option_from === "acre" && option_to==="square-mile"){
+		result.value = Number(input.value) / 640;
+	}else if(option_from === "acre" && option_to==="acre"){
+		result.value = input.value
+  }else if(option_from === "acre" && option_to==="hectare"){
+		result.value = Number(input.value) / 2.471;
+  }
+
+  if(option_from === "hectare" && option_to==="square-kilometer"){
+		result.value = Number(input.value) / 100;
+	}else if(option_from === "hectare" && option_to==="square-millimeter"){
+		result.value = Number(input.value) * 1e+10;
+	}else if(option_from === "hectare" && option_to==="square-meter"){
+		result.value = Number(input.value) * 10000
+	}else if(option_from === "hectare" && option_to==="square-yard"){
+		result.value = Number(input.value) * 11960;
+	}else if(option_from === "hectare" && option_to==="square-foot"){
+		result.value = Number(input.value) * 107600;
+	}else if(option_from === "hectare" && option_to==="square-inch"){
+		result.value = Number(input.value) * 1.55e+7;
+	}else if(option_from === "hectare" && option_to==="square-mile"){
+		result.value = Number(input.value) / 259;
+	}else if(option_from === "hectare" && option_to==="acre"){
+		result.value = Number(input.value) * 2.471;
+  }else if(option_from === "hectare" && option_to==="hectare"){
+		result.value = input.value
+  }
+
+}
+   </script>
+
+
+</body>
+</html>

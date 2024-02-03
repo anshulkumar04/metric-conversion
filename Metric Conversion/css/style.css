@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif ;
+
+}
+.company-name, .why-us-heading {
+    font-family: 'ADLaM Display', sans-serif;
+}
+.navbar-toggler-icon{
+    background-color: white;
+color: white;
+}
+/* contact-us-tab css */
+
+.contact-us-tab{
+    padding-left: 40px;
+    background-color: #333;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.contact-us-icon{
+    font-size:20px ;
+}
+.contact-info{
+    border-right: 2px white solid;
+}
+/* contact-us-tab css end */
+.logo{
+    width: 100px;
+    height: 80px;
+}
+/* nav item css */
+.navbar-nav{
+    margin-left: 120px;
+    
+}
+.nav-link{
+    line-height:50px;
+    padding-left: 120px;
+    font-size: 2px;
+   font-weight: 800 !important;
+}
+.nav-item{
+    margin-left: 20px;
+    
+}
+.nav-link:hover{
+border-top: #474E68 solid 2px;
+}
+  .main-div {
+margin-left: 120px;
+}
+.user{
+    color: white;
+    font-size: 30px;
+    margin-left: 70px;
+    line-height: 50px;}
+/* nav item css end */
+/* our specialty cards css */
+.specality-icons{
+ color: white;  
+    font-size: 50px;
+} 
+.speacilty-row{
+    justify-content: space-between;
+}
+.specialty-cards{
+    transition: 0.5s;
+    border: white 1px solid;
+ background-color:  #333;
+justify-content: space-between;
+
+    color: white;
+}
+.specialty-cards:hover{ 
+    background-color:#267e8a;
+    color: black;
+}
+/* our specialty cards css end */
+
+/* conversation card css start */
+.conversion-card{
+    max-width: 25rem; height: 55px;
+}
+.conversion-card-body{
+    background-color:#267e8a; 
+ }
+ .conversion-card-body:hover{
+     color: white;
+     background-color: #333;
+ }
+ .conversion-card-body a{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+ }
+
+
+/* conversation card css end */
+
+
+
+.carousel-div{
+    background-size: cover;
+    position: relative;
+    height: 600px;
+}
+.carousel-heading{
+    margin-top: 150px;
+    padding-left: 40px;
+}
+.carousel-para{
+    padding-left: 40px;
+}
+
+/* images css start from here */
+.item img{
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+height: 100%;
+width: 100%;
+}
+/* icon styling */
+.instagram{
+    font-size: 2vw;
+    color: white;
+    background: linear-gradient(135deg,  #f9ce34, #ee2a7b, #6228d7);
+
+}
+.google, .facebook, .twitter{
+    color: blue;
+    font-size: 2vw;
+}
+.github{
+    font-size: 2vw;
+}   
+/* icon styling end */
+/* icon section styling */
+.icon-section{
+    height: 80px;
+    background-color: #dddada;
+}
+.icon-section span{
+    
+    font-weight: bolder;
+}
+/* icon section styling end */
+/* news letter styling */
+#scroll-triggered-box {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #71C9CE;
+    padding: 10px;
+    border: 1px solid #333;
+    color: #333;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    
+}
+#Newsletter-delay{
+    text-decoration: none;
+    color: #333;
+}
+/* newsletter styling end */
+
+/* video styling start */
+.length-video , .temprature-video , .mass-video , .volume-video , .money-video{
+    height: 100%;
+    width: 100%;
+}
+
+/* video starting end */
+
+/*  our key factors css*/
+.key-factor-box{
+    background-color: #333;
+    border-radius: 80px;
+padding-bottom: 70px;
+padding-top: 70px;
+}
+.key-factor-icon{
+    font-size:40px ;
+}
+.key-factor-point{
+    border-right: 3px dashed white;
+}
+
+/*  our key factors css end*/
+.text-reset{
+    text-decoration: none;
+}
+/* signn up css */
+.sign-up-icon{
+    font-size: 30px;
+}
+/* sign up css end */
